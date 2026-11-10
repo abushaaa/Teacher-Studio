@@ -1,0 +1,104 @@
+{
+  "title": "Photosynthesis: How Plants Make Their Food",
+  "scenes": [
+    {
+      "narration": "Have you ever wondered how a plant grows without eating a meal? Plants make their own food, using energy from the sun. This amazing process is called photosynthesis.",
+      "visual": {
+        "layout": "title",
+        "heading": "Photosynthesis",
+        "subheading": "How do plants make their own food?",
+        "items": [{"label": "plant", "icon": "🌱"}]
+      }
+    },
+    {
+      "narration": "A plant needs three things. It takes in sunlight, water from the soil, and carbon dioxide from the air. Inside its green leaves, it uses them to make sugar for energy, and it gives out oxygen.",
+      "visual": {
+        "layout": "in_process_out",
+        "heading": "What goes in, what comes out",
+        "inputs": [
+          {"label": "Sunlight", "icon": "☀️", "cue": "sunlight"},
+          {"label": "Water", "icon": "💧", "cue": "water from the soil"},
+          {"label": "Carbon dioxide", "icon": "💨", "caption": "CO₂ from the air", "cue": "carbon dioxide from"}
+        ],
+        "process": {"label": "Green leaf", "icon": "🌿", "caption": "makes food", "cue": "inside its green leaves"},
+        "outputs": [
+          {"label": "Sugar", "icon": "🍬", "caption": "energy for the plant", "cue": "make sugar"},
+          {"label": "Oxygen", "icon": "🫧", "caption": "released into the air", "cue": "gives out oxygen"}
+        ]
+      }
+    },
+    {
+      "narration": "How do the ingredients get to the leaves? The roots soak up water from the soil. The water travels up the stem to the leaves. Tiny holes on the leaves let carbon dioxide in.",
+      "visual": {
+        "layout": "flow",
+        "heading": "Getting the ingredients to the leaves",
+        "items": [
+          {"label": "Roots", "icon": "🌱", "caption": "soak up water", "cue": "the roots soak up water"},
+          {"label": "Stem", "icon": "🪵", "caption": "carries water up", "cue": "travels up the stem"},
+          {"label": "Leaves", "icon": "🌿", "caption": "let CO₂ in through tiny holes", "cue": "tiny holes on the leaves"}
+        ]
+      }
+    },
+    {
+      "narration": "Leaves are green because they contain chlorophyll. Chlorophyll catches the energy in sunlight. The plant uses that energy to turn water and carbon dioxide into sugar.",
+      "visual": {
+        "layout": "flow",
+        "heading": "Why are leaves green?",
+        "items": [
+          {"label": "Sunlight", "icon": "☀️", "caption": "brings energy", "cue": "energy in sunlight"},
+          {"label": "Chlorophyll", "icon": "🟢", "caption": "the green stuff in leaves", "cue": "contain chlorophyll"},
+          {"label": "Sugar", "icon": "🍬", "caption": "made from water and CO₂", "cue": "into sugar"}
+        ]
+      }
+    },
+    {
+      "narration": "Scientists write it like this. Carbon dioxide and water, with light energy, make sugar and oxygen.",
+      "visual": {
+        "layout": "equation",
+        "heading": "The photosynthesis recipe",
+        "reactants": [
+          {"text": "Carbon dioxide", "icon": "💨", "cue": "carbon dioxide"},
+          {"text": "Water", "icon": "💧", "cue": "and water"}
+        ],
+        "products": [
+          {"text": "Sugar", "icon": "🍬", "cue": "make sugar"},
+          {"text": "Oxygen", "icon": "🫧", "cue": "and oxygen"}
+        ],
+        "over_arrow": "light energy"
+      }
+    },
+    {
+      "narration": "Photosynthesis matters to us too. Plants give us the oxygen we breathe. And the food we eat comes from plants, or from animals that ate plants.",
+      "visual": {
+        "layout": "flow",
+        "heading": "Why it matters to us",
+        "items": [
+          {"label": "Plants", "icon": "🌳", "cue": "photosynthesis matters"},
+          {"label": "Oxygen to breathe", "icon": "🫁", "cue": "the oxygen we breathe"},
+          {"label": "Food to eat", "icon": "🥗", "cue": "the food we eat"}
+        ]
+      }
+    },
+    {
+      "narration": "Let's remember. Plants take in sunlight, water and carbon dioxide. They make sugar for energy. And they give out oxygen.",
+      "visual": {
+        "layout": "steps",
+        "heading": "Remember it in 3 steps",
+        "items": [
+          {"label": "Take in sunlight, water and CO₂", "icon": "☀️", "cue": "take in sunlight"},
+          {"label": "Make sugar for energy", "icon": "🍬", "cue": "make sugar"},
+          {"label": "Give out oxygen", "icon": "🫧", "cue": "give out oxygen"}
+        ]
+      }
+    },
+    {
+      "narration": "Quick question! Which gas do plants give out during photosynthesis? Is it carbon dioxide, oxygen, or nitrogen? The answer is oxygen!",
+      "visual": {
+        "layout": "quiz",
+        "heading": "Which gas do plants give out?",
+        "options": ["Carbon dioxide", "Oxygen", "Nitrogen"],
+        "answer_index": 1
+      }
+    }
+  ]
+}

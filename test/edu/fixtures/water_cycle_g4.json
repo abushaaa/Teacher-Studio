@@ -1,0 +1,36 @@
+{
+  "title": "The Water Cycle",
+  "scenes": [
+    {
+      "narration": "Where does rain come from, and where does it go? The water on Earth is always moving in a big loop called the water cycle.",
+      "visual": {
+        "layout": "cycle",
+        "heading": "The water cycle",
+        "subheading": "Water never disappears. It keeps travelling.",
+        "items": [
+          {"label": "Evaporation", "icon": "☀️", "caption": "sun heats water", "cue": "always moving"},
+          {"label": "Condensation", "icon": "☁️", "caption": "vapor cools into clouds", "cue": "big loop"},
+          {"label": "Precipitation", "icon": "🌧️", "caption": "rain or snow falls", "cue": "water cycle"},
+          {"label": "Collection", "icon": "🌊", "caption": "water gathers again", "cue": ""}
+        ]
+      }
+    },
+    {
+      "narration": "Evaporation and condensation are opposites. Evaporation turns liquid water into a gas. Condensation turns the gas back into tiny drops of liquid.",
+      "visual": {
+        "layout": "compare",
+        "heading": "Two opposite changes",
+        "left_title": "Evaporation",
+        "left": [
+          {"label": "Liquid becomes gas", "icon": "💧", "cue": "liquid water into a gas"},
+          {"label": "Needs heat", "icon": "🔥", "cue": "evaporation turns"}
+        ],
+        "right_title": "Condensation",
+        "right": [
+          {"label": "Gas becomes liquid", "icon": "☁️", "cue": "back into tiny drops"},
+          {"label": "Happens when air cools", "icon": "❄️", "cue": "condensation turns"}
+        ]
+      }
+    }
+  ]
+}
